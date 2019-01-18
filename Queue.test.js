@@ -35,5 +35,5 @@ test('สร้าง queue size 2 และ enqueue 1 และ 2 เข้า�
 // 6. สร้าง queue size 1 และ dequeue เลย จะต้องตรวจว่าค่าที่ได้จาก dequeue เป็น null
 test('สร้าง queue size 1 และ dequeue เลย จะต้องตรวจว่าค่าที่ได้จาก dequeue เป็น null',()=> {
     const queue = new Queue(1);
-    expect(queue.dequeue()).toBe(queue.dequeue() == null);
+    expect(queue.dequeue()).toBe(null);
 });
